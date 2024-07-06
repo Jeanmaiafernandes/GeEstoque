@@ -13,7 +13,7 @@ track inventory levels, and optimize the replenishment process.
 
 ## Technologies Used
 - **Laravel**: PHP framework for backend development.
-- **SQL**: Relational database to store system information.
+- **SQLite**: Relational database to store system information.
 - **Tailwind**: CSS framework for interface styling.
 - **JavaScript**: Scripting language for interface interactivity.
 - **Blade**: Laravel's template engine to create views.
