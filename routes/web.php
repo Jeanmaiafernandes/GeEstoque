@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\SupplierController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -9,8 +11,10 @@ Route::get('/', function () {
 
 Route::get('/', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/about', [\App\Http\Controllers\AboutController::class, 'index'])->name('about');
-Route::get('/us', [\App\Http\Controllers\ProfileController::class, 'index'])->name('users.index');
+Route::get('/us', [\App\Http\Controllers\ProfileController::class, 'index'])->name('user_profiles.index');
 Route::get('/contact', [\App\Http\Controllers\ContactController::class, 'index'])->name('contact');
+Route::resource('suppliers', SupplierController::class);
+Route::resource('users', UserController::class);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
