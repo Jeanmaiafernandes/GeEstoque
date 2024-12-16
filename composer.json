@@ -8,6 +8,8 @@
         "php": "^8.2",
         "doctrine/dbal": "^4.0",
         "laravel/framework": "^11.0",
+        "laravel/sanctum": "^4.0",
+        "laravel/telescope": "*",
         "laravel/tinker": "^2.9"
     },
     "require-dev": {
