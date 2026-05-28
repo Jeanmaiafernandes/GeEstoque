@@ -1,6 +1,10 @@
 # GeEstoque - Sistema de Controle de Estoque
 
-Sistema web completo de **controle de almoxarifado** desenvolvido com Laravel 13, SQLite e Tailwind CSS. Gerencia materiais, movimentações de estoque, requisições com fluxo de aprovação, inventário rotativo, etiquetas com código de barras/QR e importação de notas fiscais.
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+
+Sistema web de **controle de almoxarifado** desenvolvido com Laravel 13, SQLite e Tailwind CSS. Gerencia materiais, movimentações de estoque, requisições com fluxo de aprovação, inventário rotativo, etiquetas com código de barras/QR e importação de notas fiscais.
+
+> ⚠️ **Projeto em desenvolvimento.** O sistema ainda não está completo — funcionalidades estão sendo construídas e refinadas de forma incremental, e podem mudar (ou conter ajustes pendentes) entre versões. As funcionalidades listadas abaixo refletem o estado atual do desenvolvimento.
 
 ## Funcionalidades
 
