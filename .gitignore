@@ -28,4 +28,8 @@ Thumbs.db
 database/*.sqlite
 database/*.sqlite-journal
 storage/app/backups
-.phpunit.result.cache
+
+# Documentação interna (não publicada no repositório)
+DIAGRAMAS.html
+DOCUMENTACAO.md
+IMPLANTACAO.md

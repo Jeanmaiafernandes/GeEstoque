@@ -130,7 +130,7 @@ php artisan test
 
 ## Implantação
 
-Para ambiente de produção (rede local com HTTPS para câmera), veja o guia em [`IMPLANTACAO.md`](IMPLANTACAO.md).
+Para ambiente de produção em rede local, o sistema roda via Laragon/PHP com HTTPS (necessário para a leitura de código de barras pela câmera em dispositivos móveis), backup automático do banco SQLite e inicialização junto com o sistema operacional.
 
 ## Licença
 
